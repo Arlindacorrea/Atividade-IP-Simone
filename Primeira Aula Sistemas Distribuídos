@@ -1,0 +1,58 @@
+1A:
+1. Qual endereço IP apareceu?
+172.217.172.46
+
+2. Quantos pacotes foram enviados?
+ Enviados = 4
+
+3. Quantos foram recebidos?
+ Recebidos = 4
+
+4. Houve perda de pacotes?
+ Perdidos = 0 (0% de perda),
+
+5. Qual foi aproximadamente o tempo de resposta?
+Mínimo = 10ms, Máximo = 28ms, Média = 16ms
+
+1B:
+C:\Users\User>nslookup youtube.com
+Servidor:  UnKnown
+Address:  172.31.32.236
+
+Não é resposta autoritativa:
+Nome:    youtube.com
+Addresses:  2800:3f0:4001:839::200e
+          172.217.29.238
+
+1C:
+
+C:\Users\User>tracert google.com
+
+Rastreando a rota para google.com [172.217.172.46]
+com no máximo 30 saltos:
+
+  1     6 ms     5 ms     6 ms  172.28.128.1
+  2     7 ms     6 ms     6 ms  192.168.1.1
+  3     6 ms     6 ms     9 ms  10.1.6.0
+  4     9 ms     5 ms     6 ms  172.21.0.69
+  5    11 ms     9 ms     8 ms  172.19.0.77
+  6    10 ms     7 ms     8 ms  172.19.1.36
+  7     7 ms     5 ms     5 ms  172.19.1.17
+  8    12 ms    17 ms    12 ms  172.29.8.65
+  9    10 ms     7 ms     7 ms  142.250.165.91
+ 10    10 ms     7 ms     8 ms  142.250.209.5
+ 11    11 ms    11 ms    12 ms  192.178.253.73
+ 12    13 ms    14 ms    12 ms  pngrub-an-in-f14.1e100.net [172.217.172.46]
+
+Rastreamento concluído.
+
+1. Quantos saltos apareceram?
+12 
+
+2. Todos responderam?
+Sim
+
+3. Apareceu * * * em algum salto?
+Não
+4. O seu computador está conectado diretamente ao servidor do Google?
+Acredito que não pq até eu e o google são 12 passos
